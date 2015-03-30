@@ -12,6 +12,7 @@ Example markdown:
 
 ### Basic JS Repl
 
+{% instructions %}
 Fill up the 2 conditions so that `primaryCategory` equals `"E/J"` only if name equals `"John"` and country is `"England"`, and so that `secondaryCategory` equals `"E|J"` only if name equals `"John"` or country is `"England"`
 {% initial %}
 var name = "John";
