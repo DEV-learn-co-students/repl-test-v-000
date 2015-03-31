@@ -28,7 +28,8 @@ if ( /* Fill here */ ) {
 {% solution %}
 var name = "John";
 var country = "England";
-var primaryCategory, secondaryCategory;
+var primaryCategory;
+var secondaryCategory;
 
 if (name === "John" && country === "England") {
     primaryCategory = "E/J";
