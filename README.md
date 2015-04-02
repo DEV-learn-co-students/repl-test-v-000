@@ -52,13 +52,13 @@ Declare an array `taylorArray`, and write a `while` loop that fills it with five
 
 {% solution %}
 
-var taylorArray = [];
+var taylorArray = []; 
 var i = 0;
 
-while (i < 5) {
-    taylorArray.push("taylors gonna tay);
-    i++;
-};
+while (i < 5) { 
+taylorArray.push("taylors gonna tay");
+i++;
+}
 
 {% validation %}
 assert(taylorArray == ["taylors gonna tay","taylors gonna tay","taylors gonna tay","taylors gonna tay","taylors gonna tay"],"Haters gon Hate");
