@@ -10,6 +10,10 @@ Leggings 90's forage, ugh chillwave cray direct trade church-key cronut cold-pre
 
 {% instructions %}
 Fill up the 2 conditions so that `primaryCategory` equals `"E/J"` only if name equals `"John"` and country is `"England"`, and so that `secondaryCategory` equals `"E|J"` only if name equals `"John"` or country is `"England"`
+
+{% language %}
+javascript
+
 {% initial %}
 var name = "John";
 var country = "England";
@@ -48,6 +52,9 @@ PBR synth ugh mustache, umami Pitchfork Godard retro meditation hashtag seitan c
 
 Declare an array `taylorArray`, and write a `while` loop that fills it with five strings, each containing "taylors gonna tay".
 
+{% language %}
+javascript
+
 {% initial %}
 
 {% solution %}
@@ -59,6 +66,31 @@ while (i < 5) {
 taylorArray.push("taylors gonna tay");
 i++;
 }
+
+{% validation %}
+assert(taylorArray == ["taylors gonna tay","taylors gonna tay","taylors gonna tay","taylors gonna tay","taylors gonna tay"],"Haters gon Hate");
+{% endexercise %}
+
+{% exercise %}
+
+### Ruby Time!
+
+{% instructions %}
+
+Write a function that takes a string argument, and returns it. Call your function with the argument `"avichai"`.
+
+{% language %}
+ruby
+
+{% initial %}
+
+{% solution %}
+
+def funky(string)
+    string
+end
+
+funky("avichai")    
 
 {% validation %}
 assert(taylorArray == ["taylors gonna tay","taylors gonna tay","taylors gonna tay","taylors gonna tay","taylors gonna tay"],"Haters gon Hate");
