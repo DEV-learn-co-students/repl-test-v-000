@@ -90,8 +90,9 @@ def echo(string)
     string
 end
 
-echo("avichai")    
+string = echo("avichai")    
 
 {% validation %}
-assert(taylorArray == ["taylors gonna tay","taylors gonna tay","taylors gonna tay","taylors gonna tay","taylors gonna tay"],"Haters gon Hate");
+expect(string).to_eq("avichai")
+
 {% endexercise %}
