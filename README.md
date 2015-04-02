@@ -38,6 +38,7 @@ if (name === "John" || country === "England") {
     secondaryCategory = "E|J";
 }
 {% validation %}
-assert(primaryCategory === "E/J" && secondaryCategory === "E|J");
+assert(primaryCategory === "E/J","check your first answer");
+assert(secondaryCategory === "E|J","check your second answer");
 {% endexercise %}
 
