@@ -77,7 +77,7 @@ assert(taylorArray == ["taylors gonna tay","taylors gonna tay","taylors gonna ta
 
 {% instructions %}
 
-Write a function that takes a string argument, and returns it. Call your function with the argument `"avichai"`.
+Write a function called `echo` that takes a string argument, and returns it. Call your function with the argument `"avichai"`.
 
 {% language %}
 ruby
@@ -86,11 +86,11 @@ ruby
 
 {% solution %}
 
-def funky(string)
+def echo(string)
     string
 end
 
-funky("avichai")    
+echo("avichai")    
 
 {% validation %}
 assert(taylorArray == ["taylors gonna tay","taylors gonna tay","taylors gonna tay","taylors gonna tay","taylors gonna tay"],"Haters gon Hate");
