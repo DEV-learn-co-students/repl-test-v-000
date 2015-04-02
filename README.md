@@ -53,8 +53,9 @@ Declare an array `taylorArray`, and write a `while` loop that fills it with five
 {% solution %}
 
 var taylorArray = [];
+var i = 0;
 
-while (i < 6) {
+while (i < 5) {
     taylorArray.push("taylors gonna tay);
     i++;
 };
