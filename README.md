@@ -46,18 +46,18 @@ PBR synth ugh mustache, umami Pitchfork Godard retro meditation hashtag seitan c
 
 {% instructions %}
 
-Write a function that returns an array __taylorArray__ of five strings, each containing "taylors gonna tay".
+Declare an array `taylorArray`, and write a `while` loop that fills it with five strings, each containing "taylors gonna tay".
 
 {% initial %}
 
 {% solution %}
 
-var taylorArray = []
-while (i < 5) {
-    taylorArray.push("taylors gonna tay");
+var taylorArray = [];
+
+while (i < 6) {
+    taylorArray.push("taylors gonna tay);
     i++;
 };
-taylorArray;
 
 {% validation %}
 assert(taylorArray == ["taylors gonna tay","taylors gonna tay","taylors gonna tay","taylors gonna tay","taylors gonna tay"],"Haters gon Hate");
