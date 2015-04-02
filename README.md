@@ -57,8 +57,8 @@ while (i < 5) {
     taylorArray.push("taylors gonna tay");
     i++;
 };
-return taylorArr;
+taylorArray;
 
 {% validation %}
-assert(arr == ["taylors gonna tay","taylors gonna tay","taylors gonna tay","taylors gonna tay","taylors gonna tay"],"Haters gon Hate");
+assert(taylorArray == ["taylors gonna tay","taylors gonna tay","taylors gonna tay","taylors gonna tay","taylors gonna tay"],"Haters gon Hate");
 {% endexercise %}
