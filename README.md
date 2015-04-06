@@ -6,46 +6,6 @@ Leggings 90's forage, ugh chillwave cray direct trade church-key cronut cold-pre
 
 {% exercise %}
 
-### Basic JS Repl
-
-{% instructions %}
-Fill up the 2 conditions so that `primaryCategory` equals `"E/J"` only if name equals `"John"` and country is `"England"`, and so that `secondaryCategory` equals `"E|J"` only if name equals `"John"` or country is `"England"`
-
-{% language %}
-javascript
-
-{% initial %}
-var name = "John";
-var country = "England";
-var primaryCategory, secondaryCategory;
-
-if ( /* Fill here */ ) {
-    primaryCategory = "E/J";
-}
-if ( /* Fill here */ ) {
-    secondaryCategory = "E|J";
-}
-{% solution %}
-var name = "John";
-var country = "England";
-var primaryCategory;
-var secondaryCategory;
-
-if (name === "John" && country === "England") {
-    primaryCategory = "E/J";
-}
-if (name === "John" || country === "England") {
-    secondaryCategory = "E|J";
-}
-{% validation %}
-assert(primaryCategory === "E/J","Check your first answer!");
-assert(secondaryCategory === "E|J","Check your second answer!");
-{% endexercise %}
-
-PBR synth ugh mustache, umami Pitchfork Godard retro meditation hashtag seitan chia wolf cronut. Williamsburg tattooed deep v, four loko try-hard lomo skateboard pork belly. Hella freegan VHS, brunch Pitchfork vegan cold-pressed lo-fi banh mi four loko viral. Gastropub banh mi Wes Anderson, Odd Future small batch retro pug. Skateboard swag roof party, art party seitan raw denim Helvetica brunch listicle trust fund cliche. Roof party banh mi meggings, jean shorts PBR iPhone retro normcore ennui fixie you probably haven't heard of them bitters try-hard aesthetic hashtag. Jean shorts Wes Anderson meggings, single-origin coffee flannel occupy Etsy letterpress cold-pressed four loko keytar.
-
-{% exercise %}
-
 ### Another JS Repl
 
 {% instructions %}
@@ -66,10 +26,9 @@ while (i < 5) {
 taylorArray.push("taylors gonna tay");
 i++;
 }
-
-{% validation %}
-assert(taylorArray == ["taylors gonna tay","taylors gonna tay","taylors gonna tay","taylors gonna tay","taylors gonna tay"],"Haters gon Hate");
 {% endexercise %}
+
+PBR synth ugh mustache, umami Pitchfork Godard retro meditation hashtag seitan chia wolf cronut. Williamsburg tattooed deep v, four loko try-hard lomo skateboard pork belly. Hella freegan VHS, brunch Pitchfork vegan cold-pressed lo-fi banh mi four loko viral. Gastropub banh mi Wes Anderson, Odd Future small batch retro pug. Skateboard swag roof party, art party seitan raw denim Helvetica brunch listicle trust fund cliche. Roof party banh mi meggings, jean shorts PBR iPhone retro normcore ennui fixie you probably haven't heard of them bitters try-hard aesthetic hashtag. Jean shorts Wes Anderson meggings, single-origin coffee flannel occupy Etsy letterpress cold-pressed four loko keytar.
 
 {% exercise %}
 
@@ -90,9 +49,6 @@ def echo(string)
     string
 end
 
-string = echo("avichai")    
-
-{% validation %}
-expect(string).to_eq("avichai")
+echo("avichai")    
 
 {% endexercise %}
