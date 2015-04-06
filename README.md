@@ -10,12 +10,14 @@ Leggings 90's forage, ugh chillwave cray direct trade church-key cronut cold-pre
 
 {% instructions %}
 
-Declare an array `taylorArray`, and write a `while` loop that fills it with five strings, each containing "taylors gonna tay".
+Write a `while` loop that fills the given array `taylorArray` with five strings, each containing "taylors gonna tay".
 
 {% language %}
 javascript
 
 {% initial %}
+
+var taylorArray = [];
 
 {% solution %}
 
