@@ -1,4 +1,4 @@
-~~~js
+~~~javascript
 
 var tayArray = []; 
 var i = 0;
