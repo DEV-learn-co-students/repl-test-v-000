@@ -9,7 +9,7 @@ while (i < 5) {
 }
 ~~~
 
-assert.equal(tayArray, ["taylors gonna tay","taylors gonna tay","taylors gonna tay","taylors gonna tay","taylors gonna tay","taylors gonna tay"]);
+assert.equal(tayArray, ["taylors gonna tay","taylors gonna tay","taylors gonna tay","taylors gonna tay","taylors gonna tay"]);
 ~~~
 
 ~~~ruby
@@ -23,5 +23,5 @@ while i < 5 do
 end
 ~~~
 
-assert.equal(tayArray, ["taylors gonna tay","taylors gonna tay","taylors gonna tay","taylors gonna tay","taylors gonna tay","taylors gonna tay"]);
+assert.equal(tayArray, ["taylors gonna tay","taylors gonna tay","taylors gonna tay","taylors gonna tay","taylors gonna tay"]);
 ~~~
