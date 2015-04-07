@@ -18,7 +18,7 @@ for(i=0; i<10; i++;){
 
 Now write your own!
 
-~~~js
+~~~javascript
 
 var tayArray = [];
 
