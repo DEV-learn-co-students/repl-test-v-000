@@ -20,7 +20,7 @@ Now write your own!
 
 ~~~js
 
-var tayarray = [];
+var tayArray = [];
 
 ~~~
 
