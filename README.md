@@ -12,7 +12,7 @@ Here's an example of iteration in JS:
 
 ```js
 for(i=0; i<10; i++;){
-  
+  // code here
 }
 ```
 
@@ -21,32 +21,6 @@ Now write your own!
 ~~~javascript
 
 var tayArray = [];
-
-~~~
-
-%%%
-
-PBR synth ugh mustache, umami Pitchfork Godard retro meditation hashtag seitan chia wolf cronut. Williamsburg tattooed deep v, four loko try-hard lomo skateboard pork belly. Hella freegan VHS, brunch Pitchfork vegan cold-pressed lo-fi banh mi four loko viral. Gastropub banh mi Wes Anderson, Odd Future small batch retro pug. Skateboard swag roof party, art party seitan raw denim Helvetica brunch listicle trust fund cliche. Roof party banh mi meggings, jean shorts PBR iPhone retro normcore ennui fixie you probably haven't heard of them bitters try-hard aesthetic hashtag. Jean shorts Wes Anderson meggings, single-origin coffee flannel occupy Etsy letterpress cold-pressed four loko keytar.
-
-%%%
-
-### Ruby Loops R Dope
-
-Use the `times` method in Ruby to fill an array `tayArray` with five strings, each containing "taylors gonna tay".
-
-Here's an example of iteration in Ruby:
-
-```ruby
-while i < 5 do
-  puts "hi!"
-end
-```
-
-Now write your own!
-
-~~~ruby
-
-tayArray = []
 
 ~~~
 
