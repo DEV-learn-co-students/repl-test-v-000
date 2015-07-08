@@ -55,7 +55,7 @@ and so on and so on
 
 ### Ruby Repl
 
-Write a method that reverses a string, and call it, passing 12345 as an argument.
+Write a method that reverses a string, and call it, passing "12345" as an argument.
 
 ~~~ruby
 
@@ -67,11 +67,11 @@ def reverse(string)
   string.reverse
 end
 
-reverse(12345)
+reverse("12345")
 
 ~~~validation
 
-assert.strictEqual(response,54321);
+assert.strictEqual(response,"54321");
 
 ~~~
 
